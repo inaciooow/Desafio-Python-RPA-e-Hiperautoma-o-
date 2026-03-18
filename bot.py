@@ -121,13 +121,13 @@ async def criar_contexto(p) -> tuple:
         context = await p.chromium.launch_persistent_context(
             user_data_dir=str(tmp_profile),
             channel="chrome",
-            headless=True,
+            headless=False,
             args=["--profile-directory=Default"],
             viewport={"width": 1280, "height": 900},
         )
         return context, None, tmp_profile
 
-    browser = await p.chromium.launch(headless=True)
+    browser = await p.chromium.launch(headless=False)
     context = await browser.new_context(
         viewport={"width": 1280, "height": 900},
         user_agent=USER_AGENT,
