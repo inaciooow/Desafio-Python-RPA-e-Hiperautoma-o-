@@ -1,3 +1,6 @@
+### 🎥 Demonstração em Vídeo
+**[Clique aqui para assistir ao vídeo da automação e da integração com o Make.com rodando na prática](https://youtu.be/i7RDPDdKd_c?si=xAAxSspkOD0svHJD)**
+
 ## 🚀 Guia de Configuração e Execução
 
 Este guia orienta passo a passo como preparar o ambiente, instalar as dependências e executar a API de RPA localmente para testes.
